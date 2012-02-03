@@ -27,8 +27,31 @@ PRODUCT_COPY_FILES += \
     vendor/cnd/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
     vendor/cnd/prebuilt/common/etc/force_backuptool:system/bin/force_backuptool \
     vendor/cnd/prebuilt/common/etc/init.local.rc:system/bin/init.local.rc \
-    vendor/cnd/prebuilt/common/etc/sysctl.conf:system/bin/sysctl.conf \
-    vendor/cnd/prebuilt/common/etc/init.d/_placeholder_:system/bin/init.d/_placeholder_
+    vendor/cnd/prebuilt/common/etc/sysctl.conf:system/bin/sysctl.conf
+
+PRODUCT_COPY_FILES += \
+    vendor/cnd/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
+    vendor/cnd/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
+    vendor/cnd/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
+    vendor/cnd/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
+    vendor/cnd/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
+    vendor/cnd/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
+    vendor/cnd/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
+    vendor/cnd/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
+    vendor/cnd/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
+    vendor/cnd/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
+    vendor/cnd/prebuilt/common/etc/init_trigger.disabled:system/etc/init_trigger.disabled \
+    vendor/cnd/prebuilt/common/etc/liberty.bsh:system/etc/liberty.bsh \
+    vendor/cnd/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf    
+
+PRODUCT_COPY_FILES += \
+    vendor/cnd/prebuilt/common/etc/cron/cron.conf:system/etc/cron/cron.conf \
+    vendor/cnd/prebuilt/common/etc/cron/cron.hourly/00drop_caches:system/etc/cron/cron.hourly/00drop_caches \
+    vendor/cnd/prebuilt/common/etc/cron/cron.daily/00drop_caches:system/etc/cron/cron.daily/00drop_caches \
+    vendor/cnd/prebuilt/common/etc/cron/cron.weekly/00drop_caches:system/etc/cron/cron.weekly/00drop_caches \
+    vendor/cnd/prebuilt/common/etc/cron/cron.hourly/01clear_cache:system/etc/cron/cron.hourly/01clear_cache \
+    vendor/cnd/prebuilt/common/etc/cron/cron.daily/01clear_cache:system/etc/cron/cron.daily/01clear_cache \
+    vendor/cnd/prebuilt/common/etc/cron/cron.weekly/01clear_cache:system/etc/cron/cron.weekly/01clear_cache 
 
 # Required packages
 PRODUCT_PACKAGES += \
