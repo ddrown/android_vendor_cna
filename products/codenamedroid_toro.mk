@@ -17,6 +17,8 @@ PRODUCT_BRAND := Google
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
 
+PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing Codename Android for your Galaxy Nexus\nPlease visit us at \#codenameandroid on irc.freenode.net\nFollow @codenamedroid for the latest Codename Android updates\nGet the latest rom at codenameandroid.com\n------------------------------------------------\n"
+
 # Copy toro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/cnd/proprietary/tuna/app/Thinkfree.apk:system/app/Thinkfree.apk \
