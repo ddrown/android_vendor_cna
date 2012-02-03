@@ -15,4 +15,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     CNDLauncher \
     CNDSettings \
-    Mms
+    Mms \
+    SpeakerProximity
