@@ -22,10 +22,8 @@ $(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 
 
 PRODUCT_COPY_FILES += \
-    vendor/cnd/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/cnd/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/cnd/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
-    vendor/cnd/prebuilt/common/etc/force_backuptool:system/bin/force_backuptool \
     vendor/cnd/prebuilt/common/etc/init.local.rc:system/bin/init.local.rc \
     vendor/cnd/prebuilt/common/etc/sysctl.conf:system/bin/sysctl.conf
 
