@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
 
 # Required packages
 PRODUCT_PACKAGES += \
+    CNDSettings \
     LatinIME \
     Superuser \
     su
