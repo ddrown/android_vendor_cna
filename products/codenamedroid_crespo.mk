@@ -23,7 +23,6 @@ PRODUCT_MANUFACTURER := Samsung
 # Copy crespo specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/cnd/proprietary/crespo/app/Thinkfree.apk:system/app/Thinkfree.apk \
-    vendor/cnd/proprietary/crespo/app/TagGoogle.apk:system/app/TagGoogle.apk \
     vendor/cnd/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
     vendor/cnd/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
     vendor/cnd/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
