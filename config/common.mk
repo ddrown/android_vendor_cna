@@ -21,42 +21,42 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cnd/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/cnd/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+    vendor/cna/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/cna/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
 PRODUCT_COPY_FILES += \
-    vendor/cnd/prebuilt/common/bin/compcache:system/bin/compcache \
-    vendor/cnd/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
-    vendor/cnd/prebuilt/common/etc/init.local.rc:system/bin/init.local.rc \
-    vendor/cnd/prebuilt/common/etc/sysctl.conf:system/bin/sysctl.conf
+    vendor/cna/prebuilt/common/bin/compcache:system/bin/compcache \
+    vendor/cna/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
+    vendor/cna/prebuilt/common/etc/init.local.rc:system/bin/init.local.rc \
+    vendor/cna/prebuilt/common/etc/sysctl.conf:system/bin/sysctl.conf
 
 PRODUCT_COPY_FILES += \
-    vendor/cnd/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
-    vendor/cnd/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
-    vendor/cnd/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-    vendor/cnd/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
-    vendor/cnd/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
-    vendor/cnd/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
-    vendor/cnd/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
-    vendor/cnd/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
-    vendor/cnd/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
-    vendor/cnd/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
-    vendor/cnd/prebuilt/common/etc/init_trigger.disabled:system/etc/init_trigger.disabled \
-    vendor/cnd/prebuilt/common/etc/liberty.bsh:system/etc/liberty.bsh \
-    vendor/cnd/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf    
+    vendor/cna/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
+    vendor/cna/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
+    vendor/cna/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
+    vendor/cna/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
+    vendor/cna/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
+    vendor/cna/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
+    vendor/cna/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
+    vendor/cna/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
+    vendor/cna/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
+    vendor/cna/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
+    vendor/cna/prebuilt/common/etc/init_trigger.disabled:system/etc/init_trigger.disabled \
+    vendor/cna/prebuilt/common/etc/liberty.bsh:system/etc/liberty.bsh \
+    vendor/cna/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf    
 
 PRODUCT_COPY_FILES += \
-    vendor/cnd/prebuilt/common/etc/cron/cron.conf:system/etc/cron/cron.conf \
-    vendor/cnd/prebuilt/common/etc/cron/cron.hourly/00drop_caches:system/etc/cron/cron.hourly/00drop_caches \
-    vendor/cnd/prebuilt/common/etc/cron/cron.daily/00drop_caches:system/etc/cron/cron.daily/00drop_caches \
-    vendor/cnd/prebuilt/common/etc/cron/cron.weekly/00drop_caches:system/etc/cron/cron.weekly/00drop_caches \
-    vendor/cnd/prebuilt/common/etc/cron/cron.hourly/01clear_cache:system/etc/cron/cron.hourly/01clear_cache \
-    vendor/cnd/prebuilt/common/etc/cron/cron.daily/01clear_cache:system/etc/cron/cron.daily/01clear_cache \
-    vendor/cnd/prebuilt/common/etc/cron/cron.weekly/01clear_cache:system/etc/cron/cron.weekly/01clear_cache 
+    vendor/cna/prebuilt/common/etc/cron/cron.conf:system/etc/cron/cron.conf \
+    vendor/cna/prebuilt/common/etc/cron/cron.hourly/00drop_caches:system/etc/cron/cron.hourly/00drop_caches \
+    vendor/cna/prebuilt/common/etc/cron/cron.daily/00drop_caches:system/etc/cron/cron.daily/00drop_caches \
+    vendor/cna/prebuilt/common/etc/cron/cron.weekly/00drop_caches:system/etc/cron/cron.weekly/00drop_caches \
+    vendor/cna/prebuilt/common/etc/cron/cron.hourly/01clear_cache:system/etc/cron/cron.hourly/01clear_cache \
+    vendor/cna/prebuilt/common/etc/cron/cron.daily/01clear_cache:system/etc/cron/cron.daily/01clear_cache \
+    vendor/cna/prebuilt/common/etc/cron/cron.weekly/01clear_cache:system/etc/cron/cron.weekly/01clear_cache 
 
 # Required packages
 PRODUCT_PACKAGES += \
-    CNDSettings \
+    CNASettings \
     LatinIME \
     Superuser \
     su
@@ -75,9 +75,9 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhaseBeam
         
-PRODUCT_PACKAGE_OVERLAYS += vendor/cnd/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/cna/overlay/common
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/cnd/overlay/dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/cna/overlay/dictionaries
 
 BRANCH = MOD
 PRODUCT_VERSION_MAJOR = 1
@@ -86,11 +86,11 @@ PRODUCT_VERSION_MAINTENANCE = 3
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IML74K
 
-ifdef CND_NIGHTLY
+ifdef CNA_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=Codename-Android-($(BRANCH))-$(PRODUCT_VERSION_MAJOR)-$(shell date +%m%d%Y)-NIGHTLY-$(PRODUCT_RELEASE_NAME)
 else
-    ifdef CND_RELEASE
+    ifdef CNA_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
             ro.modversion=Codename-Android-($(BRANCH))-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)
     else
