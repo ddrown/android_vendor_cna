@@ -20,6 +20,9 @@ PRODUCT_COPY_FILES += \
 # Bring in camera effects & videos
 $(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 
+PRODUCT_COPY_FILES +=  \
+    vendor/cnd/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/cnd/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
 PRODUCT_COPY_FILES += \
     vendor/cnd/prebuilt/common/bin/compcache:system/bin/compcache \
@@ -76,10 +79,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cnd/overlay/common
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cnd/overlay/dictionaries
 
-$(call inherit-product, vendor/cnd/products/common_gapps.mk)
-$(call inherit-product, vendor/cnd/products/common_facelock.mk)
-$(call inherit-product, vendor/cnd/products/common_drm.mk)
-
 BRANCH = MOD
 PRODUCT_VERSION_MAJOR = 1
 PRODUCT_VERSION_MINOR = 3
@@ -89,13 +88,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IML74K
 
 ifdef CND_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CodenameDroid-($(BRANCH))-$(PRODUCT_VERSION_MAJOR)-$(shell date +%m%d%Y)-NIGHTLY-$(PRODUCT_RELEASE_NAME)
+        ro.modversion=Codename-Android-($(BRANCH))-$(PRODUCT_VERSION_MAJOR)-$(shell date +%m%d%Y)-NIGHTLY-$(PRODUCT_RELEASE_NAME)
 else
     ifdef CND_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CodenameDroid-($(BRANCH))-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)
+            ro.modversion=Codename-Android-($(BRANCH))-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CodenameDroid-($(BRANCH))-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)-UNOFFICIAL
+            ro.modversion=Codename-Android-($(BRANCH))-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)-UNOFFICIAL
     endif
 endif
