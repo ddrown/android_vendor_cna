@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
 
 # Required packages
 PRODUCT_PACKAGES += \
-    AndroidTerm \
     FileManager \
     Launcher2 \
     LatinIME \
