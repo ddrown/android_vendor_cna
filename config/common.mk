@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
 
 # Required packages
 PRODUCT_PACKAGES += \
+    Launcher2 \
     LatinIME \
     Superuser \
     su
