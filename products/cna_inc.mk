@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/inc/full_inc.mk)
+$(call inherit-product, device/htc/inc/full_inc.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/common_full_phone.mk)
