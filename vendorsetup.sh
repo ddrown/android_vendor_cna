@@ -5,4 +5,3 @@ add_lunch_combo cna_toro-userdebug
 add_lunch_combo cna_stingray-userdebug
 add_lunch_combo cna_wingray-userdebug
 add_lunch_combo cna_galaxysmtd-userdebug
-add_lunch_combo cna_inc-userdebug
