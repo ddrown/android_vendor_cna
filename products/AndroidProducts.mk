@@ -6,4 +6,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_toro.mk \
     $(LOCAL_DIR)/cna_stingray.mk \
     $(LOCAL_DIR)/cna_wingray.mk \
-    $(LOCAL_DIR)/cna_galaxysmtd.mk
+    $(LOCAL_DIR)/cna_galaxysmtd.mk \
+    $(LOCAL_DIR)/cna_inc.mk
