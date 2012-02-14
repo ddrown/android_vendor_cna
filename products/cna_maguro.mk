@@ -18,4 +18,4 @@ PRODUCT_NAME := cna_maguro
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung
