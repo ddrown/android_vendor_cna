@@ -1,4 +1,4 @@
-$(call inherit-product, device/moto/umts_everest/full_umts_everest.mk)
+$(call inherit-product, device/moto/umts_everest/full_stingray.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/common_full_tablet.mk)
