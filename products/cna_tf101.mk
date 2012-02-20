@@ -1,4 +1,4 @@
-$(call inherit-product, device/asus/tf101/full_tf101.mk)
+$(call inherit-product, device/asus/tf101/device_tf101.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/common_full_tablet.mk)
