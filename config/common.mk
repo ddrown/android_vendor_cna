@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
 
 # Required packages
 PRODUCT_PACKAGES += \
+    Camera \
     FileManager \
     Launcher2 \
     LatinIME \
