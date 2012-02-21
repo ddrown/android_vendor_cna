@@ -10,4 +10,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_wingray.mk \
     $(LOCAL_DIR)/cna_tf101.mk \
     $(LOCAL_DIR)/cna_galaxysmtd.mk \
+    $(LOCAL_DIR)/cna_fascinatemtd.mk \
+    $(LOCAL_DIR)/cna_captivatemtd.mk \
+    $(LOCAL_DIR)/cna_vibrantmtd.mk \
     $(LOCAL_DIR)/cna_inc.mk

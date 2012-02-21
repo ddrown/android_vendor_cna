@@ -8,4 +8,7 @@ add_lunch_combo cna_umts_everest-userdebug
 add_lunch_combo cna_wingray-userdebug
 add_lunch_combo cna_tf101-userdebug
 add_lunch_combo cna_galaxysmtd-userdebug
+add_lunch_combo cna_fascinatemtd-userdebug
+add_lunch_combo cna_captivatemtd-userdebug
+add_lunch_combo cna_vibrantmtd-userdebug
 add_lunch_combo cna_inc-userdebug
