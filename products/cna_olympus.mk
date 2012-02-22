@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/olympus/full_olympus.mk)
+$(call inherit-product, device/motorola/olympus/full_olympus.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/common_full_phone.mk)
@@ -17,5 +17,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_BRAND=MOTO PRODUCT_NAME=olyatt BUILD_ID=
 PRODUCT_NAME := cna_olympus
 PRODUCT_DEVICE := olympus
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Atrix
+PRODUCT_MODEL := MB860
 PRODUCT_MANUFACTURER := motorola
