@@ -65,6 +65,8 @@ PRODUCT_PACKAGES += \
 
 # Optional packages
 PRODUCT_PACKAGES += \
+    Development \
+    SpareParts \
     VideoEditor \
     VoiceDialer \
     Basic \
