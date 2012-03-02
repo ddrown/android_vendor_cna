@@ -1,7 +1,7 @@
 $(call inherit-product, device/asus/tf101/full_tf101.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/cna/config/common_full_tablet.mk)
+$(call inherit-product, vendor/cna/config/common_full_tablet_wifionly.mk)
 
 PRODUCT_COPY_FILES +=  \
     vendor/cna/prebuilt/hdpi-tablet/bootanimation.zip:system/media/bootanimation.zip
