@@ -63,6 +63,11 @@ PRODUCT_PACKAGES += \
     Superuser \
     su
 
+# Required for use without gapps
+PRODUCT_PACKAGES += \
+    QuickSearchBox \
+    Provision
+
 # Optional packages
 PRODUCT_PACKAGES += \
     Development \
