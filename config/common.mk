@@ -61,6 +61,8 @@ PRODUCT_PACKAGES += \
     Launcher2 \
     LatinIME \
     Superuser \
+    Development \
+    SpareParts \
     su
 
 # Required for use without gapps
@@ -70,8 +72,6 @@ PRODUCT_PACKAGES += \
 
 # Optional packages
 PRODUCT_PACKAGES += \
-    Development \
-    SpareParts \
     VideoEditor \
     VoiceDialer \
     Basic \
