@@ -1,7 +1,7 @@
 $(call inherit-product, device/moto/wingray/full_wingray.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/cna/config/common_full_tablet.mk)
+$(call inherit-product, vendor/cna/config/common_full_tablet_wifionly.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := XOOM(WiFi)

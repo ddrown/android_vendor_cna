@@ -1,7 +1,7 @@
 $(call inherit-product, device/moto/umts_everest/full_stingray.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/cna/config/common_full_tablet.mk)
+$(call inherit-product, vendor/cna/config/common_full_tablet_wifionly.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/gsm.mk)
