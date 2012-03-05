@@ -75,6 +75,9 @@
         <favorite 
             launcher:className="com.google.android.apps.plus.phone.ConversationListActivity" 
             launcher:packageName="com.google.android.apps.plus" />
+        <favorite 
+            launcher:className="com.android.settings.Settings" 
+            launcher:packageName="com.android.settings" />
     </folder>
 
     <!-- Right screen [3] -->
