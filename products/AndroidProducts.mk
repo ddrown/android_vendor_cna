@@ -14,5 +14,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_stingray_cdma.mk \
     $(LOCAL_DIR)/cna_umts_everest.mk \
     $(LOCAL_DIR)/cna_wingray.mk \
-    $(LOCAL_DIR)/cna_tf101.mk
-
+    $(LOCAL_DIR)/cna_tf101.mk \
+    $(LOCAL_DIR)/cna_tf101g.mk
