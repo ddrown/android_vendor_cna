@@ -10,6 +10,7 @@ add_lunch_combo cna_stingray-userdebug
 add_lunch_combo cna_stingray_cdma-userdebug
 add_lunch_combo cna_tf101-userdebug
 add_lunch_combo cna_tf101g-userdebug
+add_lunch_combo cna_tf201-userdebug
 add_lunch_combo cna_toro-userdebug
 add_lunch_combo cna_umts_everest-userdebug
 add_lunch_combo cna_vibrantmtd-userdebug
