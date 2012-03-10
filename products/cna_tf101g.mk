@@ -9,7 +9,7 @@ $(call inherit-product, vendor/google/apps/noneon.mk)
 PRODUCT_COPY_FILES +=  \
     vendor/cna/prebuilt/hdpi-tablet/bootanimation.zip:system/media/bootanimation.zip
 
-TARGET_3G := true
+TARGET_3G = true
 
 # Release name
 PRODUCT_RELEASE_NAME := TF-EeePad
