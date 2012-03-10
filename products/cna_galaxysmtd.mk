@@ -2,6 +2,9 @@ $(call inherit-product, device/samsung/galaxysmtd/full_galaxysmtd.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/common_full_phone.mk)
+$(call inherit-product, vendor/google/apps/gapps.mk)
+$(call inherit-product, vendor/google/apps/faceUnlock.mk)
+$(call inherit-product, vendor/google/apps/noneon.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/gsm.mk)
