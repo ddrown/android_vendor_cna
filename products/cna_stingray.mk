@@ -6,7 +6,7 @@ $(call inherit-product, vendor/cna/config/common_full_tablet_wifionly.mk)
 # Release name
 PRODUCT_RELEASE_NAME := XOOM(4G)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=trygon BUILD_ID=HLK75F  BUILD_FINGERPRINT="verizon/trygon/stingray:3.2.4/HLK75F/221360:user/release-keys" PRVIATE_BUILD_DESC="trygon-user 3.2.4 HLK75F 221360 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=trygon BUILD_FINGERPRINT="verizon/trygon/stingray:3.2.4/HLK75F/221360:user/release-keys" PRVIATE_BUILD_DESC="trygon-user 3.2.4 HLK75F 221360 release-keys"
 
 PRODUCT_NAME := cna_stingray
 PRODUCT_DEVICE := stingray
