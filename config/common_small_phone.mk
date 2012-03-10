@@ -6,12 +6,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cna/overlay/phone
 # Bring in all audio files
 include frameworks/base/data/sounds/NewAudio.mk
 
-# Extra Ringtones
-include frameworks/base/data/sounds/AudioPackageNewWave.mk
-
-# Bring in all video files
-$(call inherit-product, frameworks/base/data/videos/VideoPackage1.mk)
-
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \

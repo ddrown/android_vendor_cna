@@ -17,9 +17,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# Bring in camera effects & videos
-$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
-
 PRODUCT_COPY_FILES +=  \
     vendor/cna/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/cna/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
