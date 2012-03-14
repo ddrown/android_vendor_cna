@@ -2,9 +2,6 @@ $(call inherit-product, device/samsung/galaxysmtd/full_galaxysmtd.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/common_full_phone.mk)
-$(call inherit-product, vendor/google/apps/gapps.mk)
-$(call inherit-product, vendor/google/apps/faceUnlock.mk)
-$(call inherit-product, vendor/google/apps/noneon.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/gsm.mk)
@@ -22,3 +19,5 @@ PRODUCT_DEVICE := galaxysmtd
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-I9000
 PRODUCT_MANUFACTURER := samsung
+
+WITH_GOOGLE_APPS = true

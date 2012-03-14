@@ -104,3 +104,9 @@ else
             ro.modversion=Codename-Android-($(BRANCH))-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)-UNOFFICIAL
     endif
 endif
+
+ifdef WITH_GOOGLE_APPS
+$(call inherit-product, vendor/google/apps/gapps.mk)
+$(call inherit-product, vendor/google/apps/faceUnlock.mk)
+$(call inherit-product, vendor/google/apps/noneon.mk)
+endif
