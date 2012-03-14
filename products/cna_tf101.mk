@@ -17,6 +17,5 @@ PRODUCT_BRAND := asus
 PRODUCT_MODEL := Transformer
 PRODUCT_MANUFACTURER := asus
 
-WITH_GOOGLE_APPS = true
 TARGET_3G = false
 
