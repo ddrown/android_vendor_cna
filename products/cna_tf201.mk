@@ -2,9 +2,6 @@ $(call inherit-product, device/asus/tf201/full_tf201.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/common_full_tablet_wifionly.mk)
-$(call inherit-product, vendor/google/apps/gapps.mk)
-$(call inherit-product, vendor/google/apps/faceUnlock.mk)
-$(call inherit-product, vendor/google/apps/noneon.mk)
 
 PRODUCT_COPY_FILES +=  \
     vendor/cna/prebuilt/hdpi-tablet/bootanimation.zip:system/media/bootanimation.zip

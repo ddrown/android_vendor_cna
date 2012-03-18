@@ -108,5 +108,4 @@ endif
 ifdef WITH_GOOGLE_APPS
 $(call inherit-product, vendor/google/apps/gapps.mk)
 $(call inherit-product, vendor/google/apps/faceUnlock.mk)
-$(call inherit-product, vendor/google/apps/noneon.mk)
 endif

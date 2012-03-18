@@ -17,5 +17,9 @@ PRODUCT_BRAND := asus
 PRODUCT_MODEL := Transformer
 PRODUCT_MANUFACTURER := asus
 
+ifdef WITH_GOOGLE_APPS
+$(call inherit-product, vendor/google/apps/noneon.mk)
+endif
+
 TARGET_3G = false
 

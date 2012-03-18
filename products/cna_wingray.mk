@@ -13,3 +13,7 @@ PRODUCT_DEVICE := wingray
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Xoom
 PRODUCT_MANUFACTURER := Motorola
+
+ifdef WITH_GOOGLE_APPS
+$(call inherit-product, vendor/google/apps/noneon.mk)
+endif
