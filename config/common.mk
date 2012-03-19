@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
     vendor/cna/prebuilt/common/etc/init.local.rc:system/bin/init.local.rc \
     vendor/cna/prebuilt/common/etc/sysctl.conf:system/bin/sysctl.conf
 
+PRODUCT_COPY_FILES +=  \
+    vendor/cna/proprietary/Term.apk:system/app/Term.apk \
+    vendor/cna/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so
+
 PRODUCT_COPY_FILES += \
     vendor/cna/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
     vendor/cna/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
