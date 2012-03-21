@@ -16,5 +16,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_toro.mk \
     $(LOCAL_DIR)/cna_umts_everest.mk \
     $(LOCAL_DIR)/cna_vibrantmtd.mk \
+    $(LOCAL_DIR)/cna_vivow.mk \
     $(LOCAL_DIR)/cna_wingray.mk
 
