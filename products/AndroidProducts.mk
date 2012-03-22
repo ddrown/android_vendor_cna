@@ -3,6 +3,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_captivatemtd.mk \
     $(LOCAL_DIR)/cna_crespo.mk \
     $(LOCAL_DIR)/cna_crespo4g.mk \
+    $(LOCAL_DIR)/cna_epic4gtouch.mk \
     $(LOCAL_DIR)/cna_fascinatemtd.mk \
     $(LOCAL_DIR)/cna_galaxysmtd.mk \
     $(LOCAL_DIR)/cna_inc.mk \
