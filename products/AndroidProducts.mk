@@ -7,6 +7,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_fascinatemtd.mk \
     $(LOCAL_DIR)/cna_galaxys2.mk \
     $(LOCAL_DIR)/cna_galaxysmtd.mk \
+    $(LOCAL_DIR)/cna_i777.mk \
     $(LOCAL_DIR)/cna_inc.mk \
     $(LOCAL_DIR)/cna_maguro.mk \
     $(LOCAL_DIR)/cna_olympus.mk \

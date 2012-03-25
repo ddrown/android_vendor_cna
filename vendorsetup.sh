@@ -5,6 +5,7 @@ add_lunch_combo cna_epic4gtouch-userdebug
 add_lunch_combo cna_fascinatemtd-userdebug
 add_lunch_combo cna_galaxys2-userdebug
 add_lunch_combo cna_galaxysmtd-userdebug
+add_lunch_combo cna_i777-userdebug
 add_lunch_combo cna_inc-userdebug
 add_lunch_combo cna_maguro-userdebug
 add_lunch_combo cna_olympus-userdebug
