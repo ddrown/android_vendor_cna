@@ -3,6 +3,7 @@ add_lunch_combo cna_crespo-userdebug
 add_lunch_combo cna_crespo4g-userdebug
 add_lunch_combo cna_epic4gtouch-userdebug
 add_lunch_combo cna_fascinatemtd-userdebug
+add_lunch_combo cna_galaxys2-userdebug
 add_lunch_combo cna_galaxysmtd-userdebug
 add_lunch_combo cna_inc-userdebug
 add_lunch_combo cna_maguro-userdebug

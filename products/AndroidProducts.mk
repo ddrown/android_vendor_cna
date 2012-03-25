@@ -5,6 +5,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_crespo4g.mk \
     $(LOCAL_DIR)/cna_epic4gtouch.mk \
     $(LOCAL_DIR)/cna_fascinatemtd.mk \
+    $(LOCAL_DIR)/cna_galaxys2.mk \
     $(LOCAL_DIR)/cna_galaxysmtd.mk \
     $(LOCAL_DIR)/cna_inc.mk \
     $(LOCAL_DIR)/cna_maguro.mk \
