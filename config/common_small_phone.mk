@@ -3,8 +3,8 @@ $(call inherit-product, vendor/cna/config/common.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cna/overlay/phone
 
-# Bring in all audio files
-include frameworks/base/data/sounds/NewAudio.mk
+# Bring in all ICS audio files
+include frameworks/base/data/sounds/AudioPackage7.mk
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
