@@ -21,49 +21,12 @@ PRODUCT_COPY_FILES +=  \
     vendor/cna/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/cna/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
-PRODUCT_COPY_FILES += \
-    vendor/cna/prebuilt/common/bin/compcache:system/bin/compcache \
-    vendor/cna/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
-    vendor/cna/prebuilt/common/etc/init.local.rc:system/bin/init.local.rc \
-    vendor/cna/prebuilt/common/etc/sysctl.conf:system/bin/sysctl.conf
-
-PRODUCT_COPY_FILES +=  \
-    vendor/cna/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cna/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so
-
-PRODUCT_COPY_FILES += \
-    vendor/cna/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
-    vendor/cna/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
-    vendor/cna/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-    vendor/cna/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
-    vendor/cna/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
-    vendor/cna/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
-    vendor/cna/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
-    vendor/cna/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
-    vendor/cna/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
-    vendor/cna/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
-    vendor/cna/prebuilt/common/etc/init_trigger.disabled:system/etc/init_trigger.disabled \
-    vendor/cna/prebuilt/common/etc/liberty.bsh:system/etc/liberty.bsh \
-    vendor/cna/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf    
-
-PRODUCT_COPY_FILES += \
-    vendor/cna/prebuilt/common/etc/cron/cron.conf:system/etc/cron/cron.conf \
-    vendor/cna/prebuilt/common/etc/cron/cron.hourly/00drop_caches:system/etc/cron/cron.hourly/00drop_caches \
-    vendor/cna/prebuilt/common/etc/cron/cron.daily/00drop_caches:system/etc/cron/cron.daily/00drop_caches \
-    vendor/cna/prebuilt/common/etc/cron/cron.weekly/00drop_caches:system/etc/cron/cron.weekly/00drop_caches \
-    vendor/cna/prebuilt/common/etc/cron/cron.hourly/01clear_cache:system/etc/cron/cron.hourly/01clear_cache \
-    vendor/cna/prebuilt/common/etc/cron/cron.daily/01clear_cache:system/etc/cron/cron.daily/01clear_cache \
-    vendor/cna/prebuilt/common/etc/cron/cron.weekly/01clear_cache:system/etc/cron/cron.weekly/01clear_cache 
-
 # Required packages
 PRODUCT_PACKAGES += \
     Camera \
-    FileManager \
     Launcher2 \
     LatinIME \
     Superuser \
-    Development \
-    SpareParts \
     su
 
 # Required for use without gapps
@@ -89,24 +52,17 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cna/overlay/common
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cna/overlay/dictionaries
 
-BRANCH = MOD
-PRODUCT_VERSION_MAJOR = 1
-PRODUCT_VERSION_MINOR = 6
-PRODUCT_VERSION_MAINTENANCE = 0
+BRANCH = STOCK
+CNA_BUILD_DISPLAY_ID = CNA01A
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IML74K
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76D
 
-ifdef CNA_NIGHTLY
+ifdef CNA_RELEASE
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=Codename-Android-($(BRANCH))-$(PRODUCT_VERSION_MAJOR)-$(shell date +%m%d%Y)-NIGHTLY-$(PRODUCT_RELEASE_NAME)
+        ro.modversion=Codename-Android-($(BRANCH))-$(CNA_BUILD_DISPLAY_ID)-$(PRODUCT_RELEASE_NAME)
 else
-    ifdef CNA_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=Codename-Android-($(BRANCH))-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=Codename-Android-($(BRANCH))-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PRODUCT_RELEASE_NAME)-UNOFFICIAL
-    endif
+    PRODUCT_PROPERTY_OVERRIDES += \
+        ro.modversion=Codename-Android-($(BRANCH))-$(CNA_BUILD_DISPLAY_ID)-$(PRODUCT_RELEASE_NAME)-UNOFFICIAL
 endif
 
 ifdef WITH_GOOGLE_APPS

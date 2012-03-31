@@ -1,22 +1,6 @@
-add_lunch_combo cna_captivatemtd-userdebug
-add_lunch_combo cna_crespo-userdebug
-add_lunch_combo cna_crespo4g-userdebug
-add_lunch_combo cna_epic4gtouch-userdebug
-add_lunch_combo cna_fascinatemtd-userdebug
-add_lunch_combo cna_galaxys2-userdebug
-add_lunch_combo cna_galaxysmtd-userdebug
-add_lunch_combo cna_i777-userdebug
-add_lunch_combo cna_inc-userdebug
-add_lunch_combo cna_maguro-userdebug
-add_lunch_combo cna_olympus-userdebug
-add_lunch_combo cna_stingray-userdebug
-add_lunch_combo cna_stingray_cdma-userdebug
-add_lunch_combo cna_tf101-userdebug
-add_lunch_combo cna_tf101g-userdebug
-add_lunch_combo cna_tf201-userdebug
-add_lunch_combo cna_toro-userdebug
-add_lunch_combo cna_umts_everest-userdebug
-add_lunch_combo cna_vibrantmtd-userdebug
-add_lunch_combo cna_vivow-userdebug
-add_lunch_combo cna_wingray-userdebug
+add_lunch_combo cna_stock_crespo-userdebug
+add_lunch_combo cna_stock_crespo4g-userdebug
+add_lunch_combo cna_stock_stingray-userdebug
+add_lunch_combo cna_stock_toro-userdebug
+add_lunch_combo cna_stock_wingray-userdebug
 
