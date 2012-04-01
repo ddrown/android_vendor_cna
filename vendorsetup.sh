@@ -8,7 +8,6 @@ add_lunch_combo cna_galaxysmtd-userdebug
 add_lunch_combo cna_i777-userdebug
 add_lunch_combo cna_inc-userdebug
 add_lunch_combo cna_maguro-userdebug
-add_lunch_combo cna_olympus-userdebug
 add_lunch_combo cna_stingray-userdebug
 add_lunch_combo cna_stingray_cdma-userdebug
 add_lunch_combo cna_tf101-userdebug

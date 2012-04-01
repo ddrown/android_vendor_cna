@@ -10,7 +10,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_i777.mk \
     $(LOCAL_DIR)/cna_inc.mk \
     $(LOCAL_DIR)/cna_maguro.mk \
-    $(LOCAL_DIR)/cna_olympus.mk \
     $(LOCAL_DIR)/cna_stingray.mk \
     $(LOCAL_DIR)/cna_stingray_cdma.mk \
     $(LOCAL_DIR)/cna_tf101.mk \
