@@ -18,6 +18,6 @@ PRODUCT_MODEL := Transformer
 PRODUCT_MANUFACTURER := asus
 
 ifdef WITH_GOOGLE_APPS
-$(call inherit-product, vendor/google/apps/noneon.mk)
+$(call inherit-product, vendor/google/noneon.mk)
 endif
 
