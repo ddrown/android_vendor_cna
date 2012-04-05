@@ -6,10 +6,12 @@ add_lunch_combo cna_stock_fascinatemtd-userdebug
 add_lunch_combo cna_stock_galaxys2-userdebug
 add_lunch_combo cna_stock_galaxysmtd-userdebug
 add_lunch_combo cna_stock_i777-userdebug
+add_lunch_combo cna_stock_inc-userdebug
 add_lunch_combo cna_stock_stingray-userdebug
 add_lunch_combo cna_stock_tf101-userdebug
 add_lunch_combo cna_stock_tf201-userdebug
 add_lunch_combo cna_stock_toro-userdebug
 add_lunch_combo cna_stock_vibrantmtd-userdebug
+add_lunch_combo cna_stock_vivow-userdebug
 add_lunch_combo cna_stock_wingray-userdebug
 
