@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := XOOM(4G)
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=trygon BUILD_FINGERPRINT="verizon/trygon/stingray:3.2.4/HLK75F/221360:user/release-keys" PRVIATE_BUILD_DESC="trygon-user 3.2.4 HLK75F 221360 release-keys"
 
-PRODUCT_NAME := cna_stock_stingray
+PRODUCT_NAME := cna_mod_stingray
 PRODUCT_DEVICE := stingray
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Xoom

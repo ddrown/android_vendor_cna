@@ -14,7 +14,7 @@ PRODUCT_RELEASE_NAME := GN-GSM
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:4.0.4/IMM76D/299849:user/release-keys" PRIVATE_BUILD_DESC="yakju-user 4.0.4 IMM76D 299849 release-keys"
 
-PRODUCT_NAME := cna_stock_maguro
+PRODUCT_NAME := cna_mod_maguro
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus

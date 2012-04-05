@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := XOOM(WiFi)
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=tervigon BUILD_FINGERPRINT="motorola/tervigon/wingray:4.0.3/IML77/239789:user/release-keys" PRIVATE_BUILD_DESC="tervigon-user 4.0.3 IML77 239789 release-keys"
 
-PRODUCT_NAME := cna_stock_wingray
+PRODUCT_NAME := cna_mod_wingray
 PRODUCT_DEVICE := wingray
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Xoom
