@@ -27,6 +27,8 @@ PRODUCT_PACKAGES += \
     Launcher2 \
     LatinIME \
     Superuser \
+    Development \
+    SpareParts \
     su
 
 # Required for use without gapps
