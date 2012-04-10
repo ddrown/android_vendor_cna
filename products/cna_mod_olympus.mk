@@ -1,4 +1,4 @@
-$(call inherit-product, device/motorola/olympus/full_olympus.mk)
+$(call inherit-product, device/motorola/olympus/olympus.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/cna/config/common_full_phone.mk)
