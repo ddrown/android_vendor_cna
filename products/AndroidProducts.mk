@@ -10,6 +10,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_stock_i777.mk \
     $(LOCAL_DIR)/cna_stock_inc.mk \
     $(LOCAL_DIR)/cna_stock_maguro.mk \
+    $(LOCAL_DIR)/cna_stock_olympus.mk \
     $(LOCAL_DIR)/cna_stock_stingray.mk \
     $(LOCAL_DIR)/cna_stock_stingray_cdma.mk \
     $(LOCAL_DIR)/cna_stock_tf101.mk \
