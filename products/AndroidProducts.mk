@@ -11,9 +11,11 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cna_mod_inc.mk \
     $(LOCAL_DIR)/cna_mod_maguro.mk \
     $(LOCAL_DIR)/cna_mod_stingray.mk \
+    $(LOCAL_DIR)/cna_mod_stingray_cdma.mk \
     $(LOCAL_DIR)/cna_mod_tf101.mk \
     $(LOCAL_DIR)/cna_mod_tf201.mk \
     $(LOCAL_DIR)/cna_mod_toro.mk \
+    $(LOCAL_DIR)/cna_mod_umts_everest.mk \
     $(LOCAL_DIR)/cna_mod_vibrantmtd.mk \
     $(LOCAL_DIR)/cna_mod_vivow.mk \
     $(LOCAL_DIR)/cna_mod_wingray.mk
